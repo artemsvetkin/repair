@@ -24,6 +24,7 @@
 }
 
 .navbar__phone {
+    @include bold;
     color: $text-color;
     font-size: 20px;
     text-decoration: none;

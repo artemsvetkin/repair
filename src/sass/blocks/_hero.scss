@@ -10,11 +10,15 @@
     &-text {
         margin-right: 118px;
         &__title {
+            @include bold;
+
             margin: 0 0 45px;
             font-size: 41px;
             line-height: 55px;
         }
         &__subtitle {
+            @include bold;
+
             font-size: 20px;
         }
     }
