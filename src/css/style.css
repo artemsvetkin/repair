@@ -201,5 +201,10 @@ img {
   .hero-text__subtitle {
     font-size: 16px;
   }
+  .hero-list__text {
+    font-size: 14px;
+    margin-left: 15px;
+    max-width: 225px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
