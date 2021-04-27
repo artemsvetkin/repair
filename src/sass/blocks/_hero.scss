@@ -39,6 +39,10 @@
             margin-bottom: 30px;
         }
 
+        &__item:last-child {
+            margin-bottom: 0;
+        }
+
         &__image {
             display: flex;
             align-items: center;
@@ -76,6 +80,7 @@
 
 @media (max-width: 768px) {
     .hero-text {
+        margin-bottom: 30px;
         padding: 0;
         &__title {
             margin: 0 0 25px;

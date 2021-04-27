@@ -29,6 +29,21 @@
     font-size: 20px;
     text-decoration: none;
     margin-top: 10px;
+
+    &:after {
+        content: "";
+        display: block;
+        width: 0%;
+        height: 1px;
+        background: #000;
+
+        transition: 0.4s;
+    }
+    &:hover {
+        &:after {
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width: 768px) {
