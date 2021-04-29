@@ -1,0 +1,40 @@
+.portfolio {
+    padding-top: 90px;
+    padding-bottom: 60px;
+    background: $hero-color url(../img/portfolio-bg.jpg) repeat-y center left;
+    background-size: 50%;
+    &__title {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 100px;
+        max-width: 780px;
+    }
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 60px;
+    max-width: 120px;
+    &__left,
+    &__right:hover {
+        cursor: pointer;
+    }
+
+}
+
+.slider {
+    &__image {
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio {
+        background-size: 100%;
+        &__title {
+            margin-bottom: 40px;
+        }
+    }
+}

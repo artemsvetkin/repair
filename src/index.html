@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ремонт квартир</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -95,7 +96,7 @@
                     <div class="offer__info">
                         <span class="offer__text">Наш менеджер перезвонит Вам в течении 60 секунд</span>
                         <!-- /.offer__text -->
-                        <span class="offer__tel">или перезвоните нам сами
+                        <span class="offer__tel">или перезвоните нам сами <br>
                             <a href="#" class="offer__phone">+7 (495) 42-251-31</a>
                         </span>
                         <!-- /.offer__tel -->
@@ -106,6 +107,47 @@
             <!-- /.container -->
         </section>
         <!-- /.offer -->
+
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="portfolio__title">Работая с 2007 года, <br>
+                    мы сделали более 500 ремонтов в квартирах и домах
+                </h2>
+
+                <div class="slider">
+                    <div class="slider__item">
+                        <img class="slider__image" src="img/portfolio-1.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__image" src="img/portfolio-2.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__image" src="img/portfolio-3.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__image" src="img/portfolio-1.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__image" src="img/portfolio-2.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__image" src="img/portfolio-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="arrows">
+                    <div class="arrows__left">
+                        <img src="img/left-arrow.png" alt="">
+                    </div>
+                    <div class="arrows__right">
+                        <img src="img/right-arrow.png" alt="">
+                    </div>
+                </div>
+
+                <!-- /.slider -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.portfolio -->
     </div>
     <!-- /.main -->
     <div class="modal" id="modal">
@@ -114,8 +156,15 @@
             <h4 class="modal-dialog__title">Всплывающие окно</h4>
         </div>
     </div>
-
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous">
+    </script>
+    <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+
 
 </body>
 </html>
